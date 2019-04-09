@@ -1,0 +1,8 @@
+<scroll-view scroll-y class="scroll-view_V">
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</scroll-view>

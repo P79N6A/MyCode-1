@@ -1,0 +1,33 @@
+/* 水平显示 */
+.item_fixed
+{
+  position:fixed;
+}
+.item_relative
+{
+  position:relative;
+  
+}
+.item_abs
+{
+  position: absolute;
+  text-align: right;
+}
+.scroll-view_V {
+    height: 100%;
+    white-space: nowrap;
+}
+
+.scroll-view_H {
+    white-space: nowrap;
+}
+
+.item {
+    height: 200rpx;
+    margin: 20rpx;
+    background: grey;
+}
+
+.item_H {
+    display: inline-block;
+}

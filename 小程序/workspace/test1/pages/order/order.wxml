@@ -1,0 +1,27 @@
+<scroll-view scroll-y class="scroll-view_V" bindscrolltolower='lower'>
+<block wx:key="{{index}}" wx:for="{{orderlist}}">
+<view class='container'>
+  <view class='order_list' data-orderid="{{item.id}}">
+    <view class='order_top'>
+      <view class='order_time'>{{item.time}}</view>
+    </view>
+    <view class='order_msg'>
+    <view class='flex_1'>
+      <view class='text-font text-center'>品名</view>
+      <view class='text-font text-center'>单价(元/Kg)</view>
+      <view class='text-font text-center'>重量(Kg)</view>
+      <view class='text-font text-center'>总价</view>
+    </view>
+      <block wx:for="{{item.goods}}" wx:for-item="items">
+      <view class='flex_1'>
+        <view class='order_goods'>{{items.fruit_name}}</view>
+        <view class='order_goods'>{{items.fruit_weight}}</view>
+        <view class='order_goods'>{{items.fruit_price}}</view>
+        <view class='order_goods'>{{items.fruit_money}}</view>
+      </view>
+      </block> 
+    </view>
+  </view>
+</view>
+</block>
+</scroll-view>

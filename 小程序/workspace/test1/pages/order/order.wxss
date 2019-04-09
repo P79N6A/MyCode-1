@@ -1,0 +1,70 @@
+.container
+{
+  height: 100%;
+  width:100%;
+  display:flex;
+  flex-direction:colum;
+  justify-content: center;
+}
+.order_list
+{
+  height:30%;
+  width:96%;
+  border:3rpx solid rgb(228, 49, 49);
+  margin: 10rpx 0rpx;
+}
+.order_top
+{
+  display: flex;
+  width:100%;
+ border-bottom:3rpx solid red;
+}
+.order_time
+{
+  display: flex;
+  position: relative;
+  flex:1;
+  justify-content:center;
+  border-width:3px solid red;
+  margin: 0rpx 0rpx 0rpx 20rpx;
+}
+.order_ID
+{
+  display: flex;
+  flex:1;
+  justify-content: flex-end;
+  margin: 0rpx 20rpx 0rpx 0rpx;
+}
+.order_msg
+{
+  width:100%;
+  height:50%;
+}
+.order_goods
+{
+  background-color:gray;
+  display: flex;
+  flex:1;
+}
+.flex_1
+{
+  display: flex;
+  flex:1;
+}
+.text-font
+{
+  font-size: medium;
+}
+.text-center
+{
+  display: flex;
+  flex:1;
+  justify-content: flex-start;
+}
+.scroll-view_V {
+    display:flex;
+    flex-direction:colum;
+    justify-content: center;
+    height: 100%;
+    white-space: nowrap;
+}

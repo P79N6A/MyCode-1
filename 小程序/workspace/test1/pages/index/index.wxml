@@ -1,0 +1,6 @@
+ <view style="background:url('../../resourses/1.jpg')"> 
+    <text>成都</text>
+    <text>-------</text>
+    <text>合肥</text>
+  </view>
+ <view> 56786 </view>
