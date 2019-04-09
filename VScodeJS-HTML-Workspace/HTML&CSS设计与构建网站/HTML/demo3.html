@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title> chapter 5 - 7</title>
+     </head>
+    <body>
+        <img src="../image/1.jpg" alt="福字" title="扫码得福" width="60" height="60">
+
+        <table>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                        2
+                    </td>
+                    <td>
+                            3
+                        </td>
+            </tr>
+        </table>
+        <form action="**********" method="POST">
+            <p>
+                this is where you come from !
+            </p>
+            <p>Username :
+            <input type="text" name="username" size="10" maxlength="30"></p>
+
+            <p>Password : 
+                <input type="password" name="password" size="10" maxlength="30">
+            </p>
+
+            <p>
+                write your comments
+            </p>
+            <textarea name="comments" cols="20" rows="4">Enter your comments，</textarea>
+            <hr>
+
+            <input type="radio" name="sex" value="man" checked="checked">Man
+            <input type="radio" name="sex" value="women">women
+            <hr>
+
+            <input type="checkbox" name="service" value="iTunes" checked="checked">iTunes
+            <input type="checkbox" name="service" value="网易云音乐" checked="checked"> 网易云音乐
+            <input type="checkbox" name="service" value="Spotify"> Spotify
+            <hr>
+
+            <p>what do you want to listen</p>
+            <select name="wayoflisten" size="2" multiple="multiple">
+                <option value="ipod">iPod</option>
+                <option value="radio" selected="selected">Radio</option>
+                <option value="Computer" >Computer</option>
+            </select>
+            <p>按住Ctrl键进行多选!</p>
+            <br>
+
+            <p>上传您的文件！</p>
+            <input type="file" name="user-song" multiple="multiple">
+            <br>
+            <input type="image" value="Submit" src="../image/3.gif" width="80" height="50">
+            <hr>
+
+            <button><img src="../image/4.png" alt="add" width="20" height="20" >Add</button>
+            <hr>
+
+            <label>Age : <input type="text" name="age"></label>
+            <br>
+            Gender: 
+            <label for="female"> <input type="radio" name="gender" value="f" id="female">Female</label>
+            <label for="male">   <input type="radio" name="gender" value="m" id="male">Male</label>
+            <hr>
+
+            <fieldset>
+                <legend> Contact details</legend>
+                <label>
+                    Email:<br>
+                    <input type="text" name="email">
+                </label>
+                <br>
+                <label>
+                    Mobile:<br>
+                    <input type="text" name="mobile">
+                </label>
+                <br>
+                <label>
+                    Telephone:<br>
+                    <input type="text" name="mobile">
+                </label>
+            </fieldset>
+            <hr>
+
+            <label for ="leaving-date">
+                Leaving Date: <input type="date" id="leaving-date" name="leavingdate">
+                <input type="submit" value="Submit">
+            </label>
+            <hr>
+
+            <p>Search :</p>
+            <input type="search" name="search" placeholder="Enter the keyword">
+            <input type="submit" value="Search">
+            </form>
+
+
+    </body>
+</html>

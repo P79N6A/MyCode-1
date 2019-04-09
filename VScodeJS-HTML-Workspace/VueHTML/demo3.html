@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="vue.js"></script>
+    </head>
+    <body>
+            <div>
+                    <ol>
+                            <!-- 创建一个 todo-item 组件的实例 -->
+                            <todo-item></todo-item>
+                          </ol>
+            </div>
+        <script>
+                Vue.component('todo-item', {
+  template: '<li>这是个待办项</li>'
+});
+
+var vm = new Vue({
+    el:'todo-item'
+})
+            </script>
+    </body>
+</html>

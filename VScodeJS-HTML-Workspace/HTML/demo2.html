@@ -1,0 +1,40 @@
+<!-- HTML结构 -->
+<ul id="test-list">
+    <li>JavaScript</li>
+    <li>Swift</li>
+    <li>HTML</li>
+    <li>ANSI C</li>
+    <li>CSS</li>
+    <li>DirectX</li>
+</ul>
+<script>
+
+//'删除DOM'最后习题
+var listbox = document.getElementById('test-list');
+var list = [];
+/*for(var i=0;i<listbox.children.length;i++)
+{
+    list.push(listbox.children[i]);
+}*/
+var 
+    j=0;
+    i=0;
+console.log(listbox.children.length);
+while(1){
+    if(i==listbox.children.length)
+    {
+        break;
+    }
+    if(listbox.children[i].innerHTML==='JavaScript'||listbox.children[i].innerHTML==='HTML'||listbox.children[i].innerHTML==='CSS')
+    { 
+        console.log(listbox.children[i].innerHTML);
+        i++;
+    }
+    else {
+        listbox.children[i].parentElement;
+        listbox.removeChild(listbox.children[i]);
+        console.log(listbox.children.length);
+    }
+    
+}
+    </script>

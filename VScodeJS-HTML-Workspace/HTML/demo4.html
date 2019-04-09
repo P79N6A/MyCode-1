@@ -1,0 +1,24 @@
+<html>
+<head>
+        <script src="jquery.js"> </script>
+</head>
+    <body>
+        <p>一个图像</p>
+        <img src="../image/1.jpg" alt="福字" width="32" height="32" id="test">
+        <button type="buttonfadeout" id="fadeout">Fadeout</button>
+        <button type="buttonfadein" id="fadein">Fadein</button>
+    </body>
+</html>
+<script>
+    var test = $('#test');
+    var btnout = $('#fadeout');
+    var btnin = $('#fadein');
+    btnout.click(function()
+    {
+        test.slideUp(1000);
+    });
+    btnin.click(function()
+    {
+        test.slideDown(1000);
+    })
+</script>

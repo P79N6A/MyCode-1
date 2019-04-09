@@ -1,0 +1,30 @@
+h1{
+    color:rgb(9, 64, 245);
+    /*background-color: #ee3e80;*/
+    text-align: center;
+    text-shadow: 2px,2px,3px,#666666;
+    border-style: dashed;
+    border-color:#bbbbaa #111111 #ee3e80 #0088dd;
+    width:40%;
+    border-radius: 10px;
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    background-color: #ee3e80;
+    width: 30%;
+    text-align:center;
+    margin:auto auto;
+}
+
+p{
+    color:#efe441
+}
+
+.blockcenter
+{
+    display:inline;
+}
+/*body{
+    background-color: rgb(185,179,175)
+}*/

@@ -1,0 +1,20 @@
+<!-- HTML -->
+<html>
+        <head>
+                <script src="jquery.js"> </script>
+        </head>
+        <body>
+    <div id="test-div">
+        <ul>
+         <li name='1'><span>JavaScript</span></li>
+            <li name='2'><span>Python</span></li>
+            <li name='3'><span>Swift</span></li>
+        </ul>
+    </div>
+        </body>
+</html>
+<script>
+        var js=$('ul li[name=1]');
+            console.log(js.text());
+            console.log(js.html());
+        </script>
