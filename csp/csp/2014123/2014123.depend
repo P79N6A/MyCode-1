@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1536889676 source:c:\users\信扎非得永生\desktop\csp\csp\2014123\main.cpp
+	<iostream>
+	<cstring>
+	<queue>
+	<cstdio>
+

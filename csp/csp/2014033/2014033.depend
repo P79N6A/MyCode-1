@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1538242969 source:c:\users\信扎非得永生\desktop\csp\csp\2014033\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<cstring>
+	<map>
+	<algorithm>
+
